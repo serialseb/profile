@@ -2,7 +2,7 @@
 
 set -ev
 
-! ln -s Brewfile ~/.Brewfile
+! ln -s $PWD/Brewfile ~/.Brewfile
 #which hub || brew install hub
 
 brew bundle install --global
